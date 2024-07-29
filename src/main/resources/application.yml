@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fullstack
+    username: root
+    password: gihan123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
